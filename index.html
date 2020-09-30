@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:300, 400, 600"
+      rel="stylesheet"
+    />
+    <title>Booking App</title>
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="image/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="image/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="image/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="image/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="image/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="image/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="image/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo animate-left"><a href="index.html">iTtech</a></div>
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="search Hotels"
+          />
+          <svg class="search__icon">
+            <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+          </svg>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">10</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="images/alex-block--LNU8IjgeXU-unsplash.jpg"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Members</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="images/sprite.svg#icon-home"></use>
+                  <span>Hotel</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use
+                    xlink:href="images/sprite.svg#icon-aircraft-take-off"
+                  ></use>
+                  <span>flight</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="images/sprite.svg#icon-key"></use>
+                  <span>Car Rental</span>
+                </svg>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="images/sprite.svg#icon-map"></use>
+                  <span>Tours</span>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2020 by fuselick.com. All rights reserved.
+          </div>
+        </nav>
+
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__view">
+              <img
+                src="images/alex-block--LNU8IjgeXU-unsplash.jpg"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__view">
+              <img
+                src="images/alex-block-YaEfT8nJbDM-unsplash.jpg"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__view">
+              <img
+                src="images/roman-logov-f5QWC1a3tOA-unsplash.jpg "
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="gallery-overview">
+            <h1 class="gallery-overview__name">Hotel Las Panamas</h1>
+            <div class="gallery-overview__star animate-bottom">
+              <svg class="gallery-overview__icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="gallery-overview__icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="gallery-overview__icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="gallery-overview__icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="gallery-overview__icon-star">
+                <use xlink:href="images/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="gallery-overview__location">
+              <svg class="gallery-overview__location-icon">
+                <use xlink:href="images/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albuferia, Portugal</button>
+            </div>
+
+            <div class="gallery-overview__rating">
+              <div class="gallery-overview__rating-average">8.6</div>
+              <div class="gallery-overview__rating-count">429 VOtes</div>
+            </div>
+          </div>
+
+          <div class="details">
+            <div class="description">
+              <p class="paragraph">
+                A hotel is an establishment that provides paid lodging on a
+                short-term basis. Facilities provided inside a hotel room may
+                range from a modest-quality mattress in a small room to large
+                suites with bigger, higher-quality beds, a dresser, a
+                refrigerator and other kitchen facilities, upholstered chairs, a
+                flat screen television, and en-suite bathrooms.
+              </p>
+              <p class="paragraph">
+                Small, lower-priced hotels may offer only the most basic guest
+                services and facilities. Larger, higher-priced hotels may
+                provide additional guest facilities such as a swimming pool,
+                business centre (with computers, printers, and other office
+                equipment), childcare, conference and event facilities, tennis
+                or basketball courts, gymnasium, restaurants, day spa, and
+                social function services.
+              </p>
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Breakefast included</li>
+                <li class="list__item">free airfport schedule</li>
+                <li class="list__item">Free wifi in all rooms</li>
+                <li class="list__item">Air conditioned included</li>
+                <li class="list__item">pets Allowed</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Perfect for all families</li>
+              </ul>
+              <div class="recomend">
+                <p class="recomend__count">
+                  Lucy and 3 other friends recomend this hotel.
+                </p>
+                <div class="recomend__friends">
+                  <img src="images/shahzad.JPG" class="recomend__photo" />
+                  <img src="images/DSC_0037.JPG" class="recomend__photo" />
+                  <img src="images/DSC_0061.JPG" class="recomend__photo" />
+                  <img src="images/DSC_0134.JPG" class="recomend__photo" />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-interface">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Some boutique, high-end hotels have custom decorated
+                  rooms.Some hotels offer meals as part of a room and board
+                  arrangement.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="images/alex-block--LNU8IjgeXU-unsplash.jpg"
+                    class="review__photo1"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">profile-1</p>
+                    <p class="review__user-date">Feb 2020</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  Hotel operations vary in size, function, complexity, and cost.
+                  Most hotels and major hospitality companies have set industry
+                  standards to classify hotel types.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="images/alex-block-YaEfT8nJbDM-unsplash.jpg"
+                    class="review__photo1"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Profile-2</p>
+                    <p class="review__user-date">Feb 2020</p>
+                  </div>
+                  <div class="review__rating">9.3</div>
+                </figcaption>
+              </figure>
+
+              <div class="btn-inline">show all <span>&rarr;</span></div>
+            </div>
+          </div>
+
+          <div class="cta">
+            <h2 class="cta__text">
+              Good News we have 4 free room for the selected dates
+            </h2>
+          </div>
+
+          <button class="btn animate-top">
+            <span class="btn__visible">Only 4 room left</span>
+            <span class="btn__invisible">Book now</span>
+          </button>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
